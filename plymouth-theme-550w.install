@@ -1,0 +1,6 @@
+post_install(){
+    cat << EOF
+  ==> To activate, Run:
+  ==>   sudo plymouth-set-default-theme -R 550w
+EOF
+}
